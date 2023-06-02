@@ -180,13 +180,15 @@ var myButton = document.getElementById('my-button');
 var myButton2 = document.getElementById('add-data');
 var hello = document.getElementById('hello');
 var lista = document.getElementById('lista');
-var teksti = document.getElementById('teksti');
+//const teksti = document.getElementById('teksti');
+
 myButton.onclick = function () {
   console.log('Hello world');
   hello.innerHTML = 'My notebook';
 };
 myButton2.onclick = function () {
-  lista.innerHTML = "<li>" + teksti.value + "</li>";
+  lista.innerHTML = "<li>jotain</li>";
+  //lista.innerHTML = "<li>" + teksti.value + "</li>";
 };
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
