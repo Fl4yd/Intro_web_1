@@ -187,7 +187,7 @@ myButton.onclick = function () {
   hello.innerHTML = 'My notebook';
 };
 myButton2.onclick = function () {
-  lista.innerHTML = "jotain";
+  lista.innerHTML = "<li>jotain</li><li>" + teksti.value + "</li>";
   //lista.innerHTML = "<li>" + teksti.value + "</li>";
 };
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -215,7 +215,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38389" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46209" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

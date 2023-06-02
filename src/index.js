@@ -1,11 +1,10 @@
-import { tokenToString } from "typescript";
 import "./styles.css";
 
 const myButton = document.getElementById('my-button');
 const myButton2 = document.getElementById('add-data'); 
 const hello = document.getElementById('hello');
 const lista = document.getElementById('lista');
-const teksti = document.getElementById('teksti');
+//const teksti = document.getElementById('teksti');
 
 
 myButton.onclick = function() {
