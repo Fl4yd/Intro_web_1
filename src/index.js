@@ -12,7 +12,7 @@ myButton.onclick = function() {
   hello.innerHTML='My notebook'
 };
 myButton2.onclick = function() {
-  lista.innerHTML = "<li>jotain</li>"
+  lista.innerHTML = "jotain"
   //lista.innerHTML = "<li>" + teksti.value + "</li>";
 }
 

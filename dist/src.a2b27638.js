@@ -187,7 +187,7 @@ myButton.onclick = function () {
   hello.innerHTML = 'My notebook';
 };
 myButton2.onclick = function () {
-  lista.innerHTML = "<li>jotain</li>";
+  lista.innerHTML = "jotain";
   //lista.innerHTML = "<li>" + teksti.value + "</li>";
 };
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
